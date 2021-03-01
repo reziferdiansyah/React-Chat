@@ -9,28 +9,23 @@ Stack technologies :
 - NPM (others package)
 - Bootstrap 4.0 (View)
 
-
  DISPLAY 1
-
-![display](client/public/screenshot1.png)
-
- DISPLAY 2
 
 ![display](client/public/screenshot2.png)
 
- DISPLAY 3 POST CHAT
+ DISPLAY 2 POST CHAT
 
 ![display](client/public/screenshot3.png)
 
- DISPLAY 4 SUCCESSFUL POST CHAT 
+ DISPLAY 3 SUCCESSFUL POST CHAT 
 
 ![display](client/public/screenshot4.png)
 
- DISPLAY 5 DELETE CHAT 
+ DISPLAY 4 DELETE CHAT 
 
 ![display](client/public/screenshot5.png)
 
- DISPLAY 4 SUCCESSFUL DELETE CHAT 
+ DISPLAY 5 SUCCESSFUL DELETE CHAT 
 
 ![display](client/public/screenshot6.png)
 
