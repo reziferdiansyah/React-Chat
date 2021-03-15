@@ -48,7 +48,6 @@ function* postChat(payload) {
     try {
         const data = yield call(add, PATH, { id, sender, message })
         socket.emit('chat', data)
-        // console.log('Send Emit')
         yield put(actions.addChatSuccess(data))
     } catch (error) {
         yield put(actions.addChatFailure(id))
@@ -61,7 +60,6 @@ function* deleteChat(payload) {
     try {
         const data = yield call(remove, `${PATH}/${id}`)
         socket.emit('chat', data)
-        // console.log('Send Emit')
         yield put(actions.deleteChatSuccess())
     } catch (error) {
         yield put(actions.deleteChatFailure())
