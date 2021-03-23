@@ -1,7 +1,6 @@
 import { all, takeEvery, put, call } from 'redux-saga/effects';
 import request from '../actions/connect';
 import * as actions from '../actions/message';
-
 import { io } from 'socket.io-client';
 
 const socket = io('http://localhost:3000');
