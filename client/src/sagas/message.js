@@ -4,7 +4,6 @@ import * as actions from '../actions/message';
 import { io } from 'socket.io-client';
 
 const socket = io('http://localhost:3000');
-
 const read = async (path) =>
     await request.get(path)
         .then(response => response.data)
@@ -28,8 +27,6 @@ const remove = async (path, params) =>
 
 
 const PATH = '/message'
-
-//add
 function* loadChat() {
     try {
         const data = yield call(read, PATH);
