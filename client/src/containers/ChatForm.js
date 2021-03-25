@@ -18,7 +18,6 @@ class ChatForm extends Component {
    handleFormOpen = () => {
        this.setState ({
            isFormOpen : !this.state.isFormOpen
-        
        })
    }
 
@@ -26,7 +25,6 @@ class ChatForm extends Component {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
         const name = target.name;
-
         this.setState({
             [name]: value,
         })

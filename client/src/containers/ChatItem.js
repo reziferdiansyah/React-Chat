@@ -74,7 +74,6 @@ class ChatItem extends Component {
         const createdAtTime = new Intl.DateTimeFormat('en-US', { hour: '2-digit', minute: '2-digit' }).format(createdAt);
         // console.log(createdAtDate, createdAtTime)
         return (
-
             <div>
                 <Fade top>
                     <div className="timeline-icon" onClick={this.handleFormOpen}>
@@ -109,7 +108,6 @@ class ChatItem extends Component {
                     </div><br /><br />
                 </Fade>
             </div>
-
         )
     }
 }
