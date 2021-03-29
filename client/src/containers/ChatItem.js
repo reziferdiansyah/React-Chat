@@ -63,7 +63,6 @@ class ChatItem extends Component {
                 )
             }
         })
-
     }
 
     render() {
