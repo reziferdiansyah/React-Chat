@@ -18,13 +18,13 @@ class ChatItem extends Component {
         this.handleResend = this.handleResend.bind(this)
         this.handleDisplay = this.handleDisplay.bind(this);
     }
+
     handleFormOpen = () => {
         this.setState({
             isFormOpen: !this.state.isFormOpen
 
         })
     }
-
 
     handleInputChange(event) {
         const target = event.target;
@@ -39,11 +39,13 @@ class ChatItem extends Component {
     handleResend() {
         this.props.resendChat(this.props.id, this.state.sender, this.state.message)
     }
+    
     handleDisplay(event) {
         this.setState({
             display: this.state.display === "" ? "d-none" : ""
         })
     }
+
     handleDelete() {
         Swal.fire({
             title: 'Are you sure?',
