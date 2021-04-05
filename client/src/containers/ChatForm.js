@@ -11,8 +11,7 @@ class ChatForm extends Component {
             isFormOpen: false,
             name: '',
             message: ''
-        }
-        
+        }   
     }
 
    handleFormOpen = () => {
